@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/18505/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Your Form is Submitted!:)")
+	  alert("Thank you very much!")
+        },
+        error: function(){
+          alert("Error! Please Try again :(")
+        }
+    });
+}
+</script>
+</head>
+<body>
+  <form id="myForm">
+    <label>First Name</label>
+    <br/>
+    <input name="first_name" />
+    <br/>
+    <label>Last Name</label>
+    <br/>
+    <input name="last_name" />
+    <br/>
+    <label>Email</label>
+    <br/>
+    <input name="email" />
+    <br/>
+    <label>Phone</label>
+    <br/>
+    <input name="phone" />
+    <br/>
+    <label>Age</label>
+    <br/>
+    <input name="age" />
+    <br/>
+    <label>Country</label>
+    <br/>
+    <input name="country" />
+    <br/>
+    <label>City</label>
+    <br/>
+    <input name="city" />
+    <br/>
+    <label>Zip Code</label>
+    <br/>
+    <input name="zip_code" />
+    <br/>
+    <label>Street Address</label>
+    <br/>
+    <input name="street_address" />
+    <br/>
+    <label>House/Apartment Number</label>
+    <br/>
+    <input name="house/apartment_number" />
+    <br/>
+    <label>Your Message</label>
+    <br/>
+    <textarea name="your_message">
+    </textarea>
+    <br/>
+    <br/>
+  </form>
+  <button onclick="SubForm()">Submit</button>
+</body>
+</html>

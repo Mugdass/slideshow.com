@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/main.css" />
+<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Image Nr.(1/12 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 25px;
+  width: 25px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.9s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<h2>                    ░▒▓█►─═  ๓ᗩᵗÃş 𝓢ｌᎥ𝕕𝓔𝕊ʰ𝓸ⓦ ═─◄█▓▒░</h2>
+
+<h22>                     Please fill out the FORM right below! </h22>
+<br>
+<p>                          Ｈａｖｅ ａ ｎｉｃｅ ｄａｙ.</p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 12</div>
+  <img src="img_nature_wide.jpg" style="width:100%">
+  <div class="text">Nr.1</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 12</div>
+  <img src="img_snow_wide.jpg" style="width:100%">
+  <div class="text">Nr.2</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 12</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Nr.3</div>
+</div>
+
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 12</div>
+  <img src="img1.jpg" style="width:100%">
+  <div class="text">Nr.4</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 12</div>
+  <img src="img2.jpg" style="width:100%">
+  <div class="text">Nr.5</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 12</div>
+  <img src="img3.jpg" style="width:100%">
+  <div class="text">Nr.6</div>
+</div>
+
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 12</div>
+  <img src="img4.jpg" style="width:100%">
+  <div class="text">Nr.7</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 12</div>
+  <img src="img6.jpg" style="width:100%">
+  <div class="text">Nr.8</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 12</div>
+  <img src="img10.jpg" style="width:100%">
+  <div class="text">Nr.9</div>
+</div>
+
+
+
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext">10 / 12</div>
+  <img src="img11.jpg" style="width:100%">
+  <div class="text">Nr.10</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">11 / 12</div>
+  <img src="img12.jpg" style="width:100%">
+  <div class="text">Nr.11</div>
+</div>
+
+
+<div class="mySlides fade">
+  <div class="numbertext">11 / 12</div>
+  <img src="img8.jpg" style="width:100%">
+  <div class="text">Nr.12</div>
+</div>
+
+
+
+
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 6000); // Change image every 6 seconds
+}
+</script>
+
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+
+</body>
+
+
+
+
+
+
+<head>
+<title>Registration Form</title>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/18505/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Your Form is Submitted!:)")
+	  alert("Thank you very much!")
+        },
+        error: function(){
+          alert("Error! Please Try again :(")
+        }
+    });
+}
+</script>
+</head>
+<body>
+  <form id="myForm">
+    <label>First Name</label>
+    
+    <input name="first_name" />
+    
+    <label>Last Name</label>
+    
+    <input name="last_name" />
+    
+    <label>Email</label>
+ 
+    <input name="email" />
+    
+    <label>Phone</label>
+    
+    <input name="phone" />
+    
+    <label>Age</label>
+   
+    <input name="age" />
+    
+    <label>Country</label>
+   
+    <input name="country" />
+   
+    <label>City</label>
+    
+    <input name="city" />
+    
+    <label>Zip Code</label>
+    
+    <input name="zip_code" />
+    
+    <label>Street Address</label>
+    
+    <input name="street_address" />
+    
+    <label>House/Apartment Number</label>
+    
+    <input name="house/apartment_number" />
+   
+    <label>Your Message</label>
+    
+    <textarea name="your_message">
+    </textarea>
+   
+    
+  </form>
+  <button onclick="SubForm()">Submit</button>
+</body>
+
+
+
+
+
+
+
+
+</html> 
+
