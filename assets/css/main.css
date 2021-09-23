@@ -2325,7 +2325,7 @@ input, select, textarea {
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
-		font-size: 1rem;
+		font-size: 5rem;
 		text-transform: uppercase;
 		margin: 0 0 0.75rem 0;
 	}
@@ -2415,14 +2415,14 @@ input, select, textarea {
 		input[type="radio"] + label {
 			text-decoration: none;
 			cursor: pointer;
-			display: inline-block;
+			display: block;
 			font-size: 1rem;
 			letter-spacing: 0;
 			font-family: "Merriweather", Georgia, serif;
 			text-transform: none;
 			font-weight: 300;
-			padding-left: 45px;
-			padding-right: 24px;
+			padding-left:60px;
+		
 			position: relative;
 		}
 
@@ -2430,7 +2430,7 @@ input, select, textarea {
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				display: inline-block;
+				display: block;
 				font-style: normal;
 				font-variant: normal;
 				text-rendering: auto;
@@ -2445,7 +2445,7 @@ input, select, textarea {
 				border-radius: 0;
 				border: solid 4px;
 				content: '';
-				display: inline-block;
+				display: block;
 				font-size: 0.8rem;
 				height: 1.8rem;
 				left: 0;
