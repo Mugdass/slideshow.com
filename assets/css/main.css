@@ -2320,12 +2320,12 @@ input, select, textarea {
 		}
 
 	label {
-		display: block;
+		display: inline-block;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
-		font-size: 0.8rem;
+		font-size: 1rem;
 		text-transform: uppercase;
 		margin: 0 0 0.75rem 0;
 	}
@@ -2354,7 +2354,7 @@ input, select, textarea {
 
 
 		color: inherit;
-		display: block;
+		display: inline-block;
 		outline: 0;
 		padding: 0 1rem;
 		text-decoration: none;
@@ -2390,7 +2390,7 @@ input, select, textarea {
 	input[type="password"],
 	input[type="email"],
 	select {
-		height: 3rem;
+		height: 4rem;
 	}
 
 	textarea {
@@ -2403,11 +2403,11 @@ input, select, textarea {
 	
 		-ms-appearance: none;
 		appearance: none;
-		display: block;
-		float: left;
+		display: inline-block;
+		float: center;
 		margin-right: -2rem;
 		opacity: 0;
-		width: 1rem;
+		width: 2rem;
 		z-index: -1;
 	}
 
@@ -2422,7 +2422,7 @@ input, select, textarea {
 			text-transform: none;
 			font-weight: 300;
 			padding-left: 2.8rem;
-			padding-right: 1rem;
+			padding-right: 2.4rem;
 			position: relative;
 		}
 
