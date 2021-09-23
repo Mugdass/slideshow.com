@@ -2349,7 +2349,7 @@ input, select, textarea {
 		appearance: none;
 		background: transparent;
 		border-radius: 0;
-		border: solid 2px;
+		border: solid 4px;
 
 
 
@@ -2403,7 +2403,7 @@ input, select, textarea {
 	
 		-ms-appearance: none;
 		appearance: none;
-		display: inline-block;
+		display: block;
 		float: center;
 		margin-right: -2rem;
 		opacity: 0;
@@ -2421,8 +2421,8 @@ input, select, textarea {
 			font-family: "Merriweather", Georgia, serif;
 			text-transform: none;
 			font-weight: 300;
-			padding-left: 2.8rem;
-			padding-right: 2.4rem;
+			padding-left: 45px;
+			padding-right: 24px;
 			position: relative;
 		}
 
@@ -2443,7 +2443,7 @@ input, select, textarea {
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
 				border-radius: 0;
-				border: solid 2px;
+				border: solid 4px;
 				content: '';
 				display: inline-block;
 				font-size: 0.8rem;
