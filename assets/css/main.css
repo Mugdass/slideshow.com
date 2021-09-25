@@ -101,7 +101,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #748f54;
+		background-color: lightblue;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -146,14 +146,14 @@ input, select, textarea {
 		}
 
 	body {
-		color: #3f0505;
+		color: #762B42;
 	}
 
 	body, input, select, textarea {
 		font-family: "Merriweather", Georgia, serif;
-		font-weight: 600;
+		font-weight: 300;
 		font-size: 1rem;
-		line-height: 4;
+		line-height: 2.375;
 	}
 
 	a {
@@ -185,10 +185,10 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
-		line-height: 1;
+		line-height: 1.5;
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
-		margin: 0 0 4rem 0;
+		margin: 0 0 1rem 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -198,7 +198,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 20rem;
+		font-size: 4rem;
 		line-height: 1.1;
 		margin: 0 0 2rem 0;
 	}
@@ -2045,7 +2045,7 @@ input, select, textarea {
 
 	.box {
 		border: solid 2px;
-		margin-bottom: 4rem;
+		margin-bottom: 2rem;
 		padding: 1.5rem;
 	}
 
@@ -2085,13 +2085,13 @@ input, select, textarea {
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 1.8rem;
+		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
-		height: 4rem;
+		height: 3rem;
 		line-height: 3rem;
-		padding: 0 6rem;
-		text-align: right;
+		padding: 0 2rem;
+		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
@@ -2102,7 +2102,7 @@ input, select, textarea {
 		input[type="button"].icon:before,
 		button.icon:before,
 		.button.icon:before {
-			margin-right: 1.5rem;
+			margin-right: 0.5rem;
 		}
 
 		input[type="submit"].icon.solo,
@@ -2112,7 +2112,7 @@ input, select, textarea {
 		.button.icon.solo {
 			position: relative;
 			width: 4rem;
-			height: 5rem;
+			height: 4rem;
 			line-height: 4rem;
 			border-radius: 4rem;
 			text-indent: 4rem;
@@ -2135,7 +2135,7 @@ input, select, textarea {
 				line-height: inherit;
 				font-size: 1.25rem;
 				margin-right: 0;
-				text-align: right;
+				text-align: center;
 				text-indent: 0;
 			}
 
@@ -2248,11 +2248,11 @@ input, select, textarea {
 /* Form */
 
 	form {
-		margin: 5rem 2rem 2rem 20rem;
+		margin: 0 0 2rem 0;
 	}
 
 		form > :last-child {
-			margin-bottom: 2;
+			margin-bottom: 0;
 		}
 
 		form > .fields {
@@ -2322,18 +2322,18 @@ input, select, textarea {
 	label {
 		display: block;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-weight: 700;
+		font-weight: 900;
 		line-height: 1.5;
-		letter-spacing: 0.30em;
-		font-size: 2rem;
+		letter-spacing: 0.075em;
+		font-size: 0.8rem;
 		text-transform: uppercase;
-		margin: 7rem 2rem 0.5rem 0;
+		margin: 0 0 0.75rem 0;
 	}
 
 		@media screen and (max-width: 980px) {
 
 			label {
-				font-size: 2.7rem;
+				font-size: 0.9rem;
 			}
 
 		}
@@ -2354,7 +2354,7 @@ input, select, textarea {
 
 
 		color: inherit;
-		display: inline-block;
+		display: block;
 		outline: 0;
 		padding: 0 1rem;
 		text-decoration: none;
@@ -2390,7 +2390,7 @@ input, select, textarea {
 	input[type="password"],
 	input[type="email"],
 	select {
-		height: 6rem;
+		height: 3rem;
 	}
 
 	textarea {
@@ -2486,7 +2486,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #390d3d;
+		color: #212931;
 	}
 
 	input[type="text"],
@@ -4734,7 +4734,6 @@ input, select, textarea {
 
 
 			
-
 
 
 
