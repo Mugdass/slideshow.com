@@ -258,16 +258,16 @@ function showSlides() {
 <script>
 function SubForm (){
     $.ajax({
-        url:'https://api.apispreadsheets.com/data/18594/',
+        url:'https://api.apispreadsheets.com/data/18659/',
         type:'post',
         data:$("#myForm").serializeArray(),
         success: function(){
-          alert("Your Form is Submitted!:)")
+          alert("Your Form has been Submitted!")
 	  alert("Thank you very much!")
         },
         error: function(){
-          confirm("You form has been Submitted!")
-          confirm("We Thank you for Your Feedback!")
+          alert("ERROR!")
+          alert("Please Try Again.")
         }
     });
 }
